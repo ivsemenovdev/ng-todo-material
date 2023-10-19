@@ -36,3 +36,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 900px) {
+  .todos {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
