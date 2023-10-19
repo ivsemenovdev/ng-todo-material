@@ -1,0 +1,38 @@
+.add-todo-card {
+  max-width: 996px;
+  margin: 16px auto 0
+}
+
+.add-todo-card-content {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.add-todo-button {
+  margin-left: 5px;
+}
+
+.add-todo-form,
+.add-todo-input {
+  width: 100%;
+}
+
+.todos-card {
+  max-width: 996px;
+  margin: 16px auto 0
+}
+
+.todos-card-content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todos {
+  display: flex;
+  justify-content: space-between;
+}
